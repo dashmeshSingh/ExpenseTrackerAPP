@@ -1,0 +1,94 @@
+.Balancecontainer{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  font-size: 16px;
+  width: 100%;
+  
+}
+
+.expenseContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin: 20px;
+}
+
+.expenseBox{
+  border-radius: 4px;
+  border: 2px solid #A0D995;
+  padding: 15px 20px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 135px;
+}
+
+.spanExpenseBox{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+.balanceBox{
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  
+}
+
+
+.addTransaction{
+  font-size: 15px;
+  background: #0d1d2c;
+  display: flex;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  flex-direction: row;
+  border-radius: 4px;
+  font-weight: bold;
+  
+}
+
+.addTransactionContainer{
+  font-size: 15px;
+  color: #0d1d2c;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 2px solid #377D71;
+  align-items: center;
+  padding: 15px 20px;
+  margin: 10px 20px;
+  gap: 10px;
+  
+}
+
+input {
+    width: 85%;
+    outline: none;
+    /* padding: 10px 12px; */
+    border-radius: 4px;
+    border: 1px solid #e6e8e9;
+    margin: 10px;
+  }
+
+.radioBox{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  margin: 10px 0 20px 0;
+  
+}
+
+.inputRadioBox {
+    width: unset;
+    margin: 0 10px;
+  }

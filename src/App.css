@@ -1,0 +1,23 @@
+.appcontainer{
+  
+    color: #0d1d2c;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 10px; */
+    align-items: center;
+    /* height: 100vh; */
+    width: 100%;
+    padding-top: 10px;
+    font-family: Montserrat;
+}
+
+.appheader{
+  background-color: white;
+  color: #0d1d2c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 22px;
+  font-size: 25px;
+  font-weight: bold;
+}
